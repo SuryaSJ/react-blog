@@ -1,0 +1,38 @@
+.HomePostContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PopularPost img{
+    max-width: 100%;
+}
+
+.SideWrapper div img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.HomeContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeImageWrapper{
+    height: 450px;
+    overflow: hidden;
+}
+
+.HomeImageWrapper img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.PostParagraph{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    margin:0;
+    padding:0 40px 10px;
+}

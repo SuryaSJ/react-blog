@@ -1,0 +1,32 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Header a{
+    display: inline-block;
+    margin:0 10px;
+    text-decoration: none;
+    color:#565673 ;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+.Header a:hover{
+    color:#f59ea0;
+}
+
+.SocialMediaIcons ul li img{
+    width:32px;
+    height: 32px;
+}
+.SocialMediaIcons ul{
+    margin:0;
+    padding:0;
+}
+
+.SocialMediaIcons ul li{
+   
+    list-style-type: none;
+}
